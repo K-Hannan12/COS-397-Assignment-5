@@ -1,5 +1,9 @@
 # DevOps Exercise
 
+
+### Test Badge
+![sortLib Test](https://github.com/K-Hannan12/COS-397-Assignment-5/actions/workflows/main.yml/badge.svg)
+
 This is a skeleton repository for your exercise. 
 The goal of this exercise is to implement a Python package for sorting integer 
 lists using the DevOps software development approach.
