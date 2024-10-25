@@ -81,7 +81,7 @@ jobs:
       run: |
           dir dist
     - name: Check of not Windows
-      if: runner.os =! 'Windows'
+      if: runner.os != 'Windows'
         # see that the dist directory contains the wheel
       run: |
         ls -la dist
