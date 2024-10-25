@@ -89,5 +89,5 @@ jobs:
       if: github.event_name == 'push'
       uses: actions/upload-artifact@v3
       with:
-        name: python-packages-${{ matrix.operating-system }}-{{ matrix.python-version }}
+        name: python-packages-${{ matrix.operating-system }}-${{ matrix.python-version }}
         path: dist
