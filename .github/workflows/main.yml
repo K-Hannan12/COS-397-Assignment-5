@@ -75,7 +75,15 @@ jobs:
     - name: Build package
       run: |
         python -m build
+    - name: Check for Windows
+      if: runner.os == 'Windows'
+      # see that the dist directory contains the wheel
+      run: |
+          dir dist
+    - name: Check of not Windows
+      if: runner.os =! 'Windows'
         # see that the dist directory contains the wheel
+      run: |
         ls -la dist
     - name: Upload package
       if: github.event_name == 'push'
