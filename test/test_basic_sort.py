@@ -18,7 +18,7 @@
 
 import pytest
 import numpy as np
-
+from basic_sort_UNIQUE_SUFFIX/int_sort.py import bubble, quick, insertion 
 
 def is_sorted(self, int_list):
     """
@@ -34,12 +34,18 @@ def int_lists():
 
 
 def test_bubble(int_lists):
-    assert True
+    for lst in int_lists:
+        sorted_lst = sorted(lst)
+        assert bubble(lst) == sorted_lst
 
 
 def test_quick(int_lists):
-    assert True
+    for lst in int_lists:
+        sorted_lst = sorted(lst)
+        assert quick(lst) == sorted_lst
 
 
 def test_insertion(int_lists):
-    assert True
+    for lst in int_lists:
+        sorted_lst = sorted(lst)
+        assert insertion(lst) == sorted_lst
