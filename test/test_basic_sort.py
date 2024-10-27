@@ -37,16 +37,16 @@ def int_lists():
 def test_bubble(int_lists):
     for lst in int_lists:
         sorted_lst = sorted(lst)
-        assert bubble(lst) == sorted_lst
+        assert np.array_equal(bubble(lst), sorted_lst)
 
 
 def test_quick(int_lists):
     for lst in int_lists:
         sorted_lst = sorted(lst)
-        assert quick(lst) == sorted_lst
+        assert np.array_equal(quick(lst), sorted_lst)
 
 
 def test_insertion(int_lists):
     for lst in int_lists:
         sorted_lst = sorted(lst)
-        assert insertion(lst) == sorted_lst
+        assert np.array_equal(insertion(lst), sorted_lst)
