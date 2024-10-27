@@ -65,7 +65,7 @@ After installation you may use the sorting algorithm as follows
 
 from sort_lib import bubble_sort, quick_sort, insertion_sort
 
-# Example usage:
+Example usage:
 numbers = [34, 7, 23, 32, 5, 62]
 sorted_numbers = bubble_sort(numbers)
 print(sorted_numbers)
