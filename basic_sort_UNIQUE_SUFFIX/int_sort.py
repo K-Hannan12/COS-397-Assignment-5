@@ -60,7 +60,6 @@ def quick(int_list):
         return quick(left) + [pivot] + quick(right)
     
 
-
 def insertion(int_list):
     """
     insertion docstring
@@ -76,13 +75,14 @@ def insertion(int_list):
     if n <= 1:
         return
  
-    for i in range(1, n):   
+    for i in range(1, n):
         key = int_list[i]  
-        j = i - 1
-        while j >= 0 and key < int_list[j]:  
-            int_list[j + 1] = int_list[j]  
+        j = i - 1  
+        while j >= 0 and key < int_list[j]:
+            int_list[j + 1] = int_list[j]
             j -= 1
-        int_list[j + 1] = key  
+            
+        int_list[j + 1] = key
     
     print("insertion sort")
     return int_list
