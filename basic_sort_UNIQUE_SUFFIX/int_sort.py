@@ -31,7 +31,6 @@ def bubble(int_list):
     for n in range(len(int_list) - 1, 0, -1):
         for i in range(n):
             if int_list[i] > int_list[i + 1]:
-                swapped = True
                 int_list[i], int_list[i + 1] = int_list[i + 1], int_list[i]
     print("bubble sort")
     return int_list
