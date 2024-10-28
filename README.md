@@ -51,6 +51,3 @@ Clark - Reading & Understanding
 
 Seth - Reading & Understanding
 
-6. License
-
-???
