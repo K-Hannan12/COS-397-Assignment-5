@@ -41,10 +41,10 @@ GitHub account to access the repository
 
 5. Contributing Guidelines (Who did what)
 
-Johnny - Sorting Algorithms & Tests
-Odin - README Description
-Kaleb - YML & Linting Implementation
-Clark - Reading & Understanding
+Johnny - Sorting Algorithms & Tests 
+Odin - README Description 
+Kaleb - YML & Linting Implementation 
+Clark - Reading & Understanding 
 Seth - Reading & Understanding
 
 6. License
