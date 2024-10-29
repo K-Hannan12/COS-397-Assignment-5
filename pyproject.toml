@@ -7,10 +7,13 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "basic_sort_UNIQUE_SUFFIX"
 version = "0.0.1"
-authors = [{ name="Author1", email="author1@maine.edu" },
-           { name="Author2", email="author2@maine.edu" },
+authors = [{ name="Kaleb Hannan", email="kaleb.hannan@maine.edu" },
+           { name="Johnny Sylvain", email="john.sylvain@maine.edu" },
+           { name="Odin York", email="odin.york@maine.edu" },
+           { name="Seth Vaughn", email="seth.vaughn@maine.edu" },
+           { name="Clark LaChance ", email="clark.lachance@maine.edu" },
 ]
-description = "An exercise in the capstone course"
+description = "An exercise in the capstone course to help us learn CI/CD"
 readme = "README.md"
 requires-python = ">=3.9.0"
 classifiers = [
