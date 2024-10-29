@@ -17,7 +17,7 @@
     pip install -r requirements.txt
 
     STEP THREE: Install the sorting package
-    python steup.py install
+    python setup.py install
 
 Prerequisites:
 python 3.9 or 3.10
