@@ -6,40 +6,37 @@
 
 1. Project Overview
 
-    This project implements a python pachake for sorting integer lists using popular sorting algorithms such as bubblesort, quicksort, and insertion sort. The goal is to apply DevOps practices, including continuous integration and continuous delivery, using tools like github Actions, pytest, flake8, and black.
+    This project implements a Python package for sorting integer lists using popular algorithms such as bubble sort, quicksort, and insertion sort. The goal is to apply DevOps practices, including continuous integration and continuous delivery, using tools like GitHub Actions, pytest, flake8, black, and the [pre-commit](https://pre-commit.com/) Python hook framework.
 
-2. Installation Instructions
+3. Installation Instructions
 
-    STEP ONE: Clone the GitHub repository
-    git clone https://github.com/yourteam/repository-name.git
+    STEP ONE: install/ Upgrade pip
+       - python -m pip install --upgrade pip
 
-    STEP TWO: Install required dependencies
-    pip install -r requirements.txt
-
-    STEP THREE: Install the sorting package
-    python setup.py install
+    STEP TWO: Install python package
+       - pip install -i https://test.pypi.org/simple/ basic-sort-UMaine-Fike
 
 Prerequisites:
-python 3.9 or 3.10
+Python 3.9 or 3.10
 package managers: pip
-GitHub account to access the repository
+GitHub account to access the repository.
 
 3. Usage Guide
 
-    After installation you may use the sorting algorithm as follows
+    After installation, you may use the sorting algorithm as follows:
     
-    from basic_sort_UMaine_Fike.int_sort import bubble, quick, insertion
-    
-    Example usage:
-    numbers = [34, 7, 23, 32, 5, 62]
-    sorted_numbers = bubble_sort(numbers)
-    print(sorted_numbers)
+        from basic_sort_UMaine_Fike.int_sort import bubble, quick insertion
+        
+        Example usage:
+        numbers = [34, 7, 23, 32, 5, 62]
+        sorted_numbers = bubble_sort(numbers)
+        print(sorted_numbers)
 
-4. Configuration
+5. Configuration
 
-    Sorting Algorithm does not require any additional configuration
+    Sorting Algorithm does not require any additional configuration.
 
-5. Contributing Guidelines (Who did what)
+6. Contributing Guidelines (Who did what)
 
 Johnny - Sorting Algorithms & Tests 
 
