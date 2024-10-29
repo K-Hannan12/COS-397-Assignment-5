@@ -28,7 +28,7 @@ GitHub account to access the repository
 
     After installation you may use the sorting algorithm as follows
     
-    from sort_lib import bubble_sort, quick_sort, insertion_sort
+    from basic_sort_UMaine_Fike.int_sort import bubble, quick, insertion
     
     Example usage:
     numbers = [34, 7, 23, 32, 5, 62]
