@@ -25,7 +25,7 @@ GitHub account to access the repository.
 
     After installation, you may use the sorting algorithm as follows:
     
-        from basic_sort_UMaine_COS397_Fike.int_sort import bubble, quick insertion
+        from basic_sort_UMaine_COS397_Fike.int_sort import bubble, quick, insertion
         
         Example usage:
         numbers = [34, 7, 23, 32, 5, 62]
