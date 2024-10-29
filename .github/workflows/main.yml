@@ -92,7 +92,7 @@ jobs:
         name: python-packages-${{ matrix.operating-system }}-${{ matrix.python-version }}
         path: dist
         
-  uloadToTestpypi:
+  UploadToTestpypi:
     #only upload if packaging passed
     needs: packaging
 
@@ -116,4 +116,4 @@ jobs:
         ls -la dist
     - name: Upload Wheel
       run: |
-        python -m twine --repository testpypi dist/*
+        python -m twine upload --repository testpypi dist/*
