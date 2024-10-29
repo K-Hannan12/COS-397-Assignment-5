@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "basic_sort_UMaine_COS397_Fike"
-version = "0.0.2"
+version = "0.0.3"
 authors = [{ name="Kaleb Hannan", email="kaleb.hannan@maine.edu" },
            { name="Johnny Sylvain", email="john.sylvain@maine.edu" },
            { name="Odin York", email="odin.york@maine.edu" },

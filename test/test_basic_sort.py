@@ -18,7 +18,7 @@
 
 import pytest
 import numpy as np
-from basic_sort_UMaine_Fike.int_sort import bubble, quick, insertion
+from basic_sort_UMaine_COS397_Fike.int_sort import bubble, quick, insertion
 
 
 def is_sorted(self, int_list):
