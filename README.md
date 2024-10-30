@@ -14,7 +14,7 @@
        - python -m pip install --upgrade pip
 
     STEP TWO: Install python package
-       - pip install -i https://test.pypi.org/simple/ basic-sort-UMaine-Fike
+       - pip install -i https://test.pypi.org/simple/ basic-sort-UMaine-COS397-Fike
 
 Prerequisites:
 Python 3.9 or 3.10
